@@ -23,7 +23,7 @@ class DirectoryFactory
      */
     private static function defaultLoader()
     {
-        return new XsdLoader(__DIR__ . '/resources/KodyKrajow_v3-0.xsd');
+        return new XsdLoader(__DIR__ . '/resources/KodyKrajow_v4-1E.xsd');
     }
 
     /**
