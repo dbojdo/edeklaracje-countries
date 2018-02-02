@@ -1,0 +1,41 @@
+{
+    "name": "webit/edeklaracje-countries",
+    "description": "eDeklaracje - Countries Dicrectory",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Daniel Bojdo"
+        }
+    ],
+    "keywords": [
+        "eDeklaracje",
+        "e-deklaracje",
+        "countries"
+    ],
+    "license": "MIT",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://packages.web-it.eu"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "ext-mbstring": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Webit\\EDeklaracje\\Countries\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Webit\\EDeklaracje\\Countries\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

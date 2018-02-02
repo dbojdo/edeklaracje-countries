@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified" version="1.0" xml:lang="PL">
+    <xsd:annotation>
+        <xsd:documentation>Słownik krajów</xsd:documentation>
+    </xsd:annotation>
+    <xsd:simpleType name="TKodKraju">
+        <xsd:annotation>
+            <xsd:documentation>Słownik kodów krajów</xsd:documentation>
+        </xsd:annotation>
+        <xsd:restriction base="xsd:normalizedString">
+            <xsd:enumeration value="AF">
+                <xsd:annotation>
+                    <xsd:documentation>AFGANISTAN</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="AX">
+                <xsd:annotation>
+                    <xsd:documentation>ALAND ISLAND</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="AL">
+                <xsd:annotation>
+                    <xsd:documentation>ALBANIA</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="DZ">
+                <xsd:annotation>
+                    <xsd:documentation>ALGIERIA</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+        </xsd:restriction>
+    </xsd:simpleType>
+</xsd:schema>
